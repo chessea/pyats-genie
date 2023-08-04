@@ -1,0 +1,6 @@
+####
+
+
+Comando para crear archivo yaml desde archivo excel
+
+pyats create testbed file --path src/doc/SampleTestbedFile.xlsx  --output src/mock/my_testbed.yaml

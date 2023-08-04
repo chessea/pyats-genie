@@ -1,0 +1,14 @@
+devices:
+    nx-osv-1:
+        type: 'router'
+        os: 'nxos'
+        platform: n9kv
+        alias: 'uut'
+        credentials:
+            default:
+                username: admin
+                password: admin
+        connections:
+            cli:
+                protocol: ssh
+                ip: "172.25.192.90"

@@ -1,0 +1,39 @@
+{
+    "interface": {
+        "GigabitEthernet0/0/0": {
+            "ip_address": "192.168.1.2",
+            "interface_is_ok": "YES",
+            "method": "NVRAM",
+            "status": "up",
+            "protocol": "up"
+        },
+        "GigabitEthernet0/0/1": {
+            "ip_address": "unassigned",
+            "interface_is_ok": "YES",
+            "method": "unset",
+            "status": "administratively down",
+            "protocol": "down"
+        },
+        "Loopback0": {
+            "ip_address": "10.0.0.34",
+            "interface_is_ok": "YES",
+            "method": "NVRAM",
+            "status": "administratively down",
+            "protocol": "down"
+        },
+        "Loopback101": {
+            "ip_address": "10.16.100.2",
+            "interface_is_ok": "YES",
+            "method": "NVRAM",
+            "status": "up",
+            "protocol": "up"
+        },
+        "Loopback103": {
+            "ip_address": "10.16.100.3",
+            "interface_is_ok": "YES",
+            "method": "NVRAM",
+            "status": "up",
+            "protocol": "up"
+        }
+    }
+}

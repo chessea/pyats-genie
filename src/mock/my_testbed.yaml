@@ -1,0 +1,15 @@
+devices:
+  DEVNET_TEST:
+    connections:
+      cli:
+        ip: 192.168.1.2
+        protocol: ssh
+
+        
+    credentials:
+      default:
+        password: devnet
+        username: dev
+    os: iosxe
+    platform: ISR4221/K9
+    type: iosxe
