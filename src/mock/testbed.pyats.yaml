@@ -1,0 +1,34 @@
+# Example
+# -------
+#
+#   an example testbed file - ios_testbed.yaml
+
+testbed:
+    name: IOS_Testbed
+    credentials:
+        default:
+            username: dev
+            password: devnet
+
+devices:
+    devnet:   # <----- must match to your device hostname in the prompt
+        os: ios
+        type: ios
+        connections:
+            a:
+                protocol: ssh
+                ip: 192.168.1.2
+                port: 22
+
+
+    #ios-2:  # < ------ Add new
+        #os: ios
+        #type: ios
+        #connections:
+            #a:
+                #protocol: telnet
+                #ip: 1.1.1.2
+                #port: 11024
+            #vty:
+                #protocol: ssh
+                #ip: 5.5.5.5
